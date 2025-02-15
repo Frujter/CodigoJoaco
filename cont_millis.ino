@@ -1,3 +1,4 @@
+// este es el código para un sumador en arduino, funciona.
 int preMillis = 0,cont = 0; 
 void setup() {
   Serial.begin(115200);              
