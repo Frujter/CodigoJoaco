@@ -1,4 +1,5 @@
 //este código solo tiene un boton, para ver si podia lograr un contador utilizado millis
+//los errores encontrados son: que el valor de num no se muestre en la leyenda y que en la consola el valor solo bajaba hasta 9 y despues no hacia nada mas
 #include <WiFi.h>
 #define PORT 80    
 WiFiServer server(PORT);
