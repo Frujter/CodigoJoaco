@@ -2,8 +2,8 @@
 #define PORT 80    
 WiFiServer server(PORT);
 
-const char* ssid     = "Muniz 533*";
-const char* password = "agustin2019";
+const char* ssid     = "Frujter";
+const char* password = "FrujterFrujter";
 
 String header; 
 int contconexion=0;
