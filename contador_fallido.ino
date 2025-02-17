@@ -1,3 +1,4 @@
+//en este código decidi sacar todo menos el contador para ver si lo que no funcionaba era el contador con millis que hice, resulta que si suma, pero la página tiene que ser actualizada de manera constante y no se como lograr eso con el codigo.
 #include <WiFi.h>
 #define PORT 80    
 WiFiServer server(PORT);
