@@ -57,7 +57,7 @@ if (header.indexOf("GET /diez") >= 0) {
     num = 10;
     verda = true;  
   }
-        for(int i = 0; i <= 10; i++){
+        for(int i = 10; i >= 0; i--){
               if(millis() > preMillis + periodo){
                 preMillis = millis();
                 num--;
@@ -69,7 +69,7 @@ else if (header.indexOf("GET /treinta") >= 0) {
     num = 30;
     verda1 = true; 
   }
-        for(int i = 0; i <= 30; i++){
+        for(int i = 30; i >= 0; i--){
               if(millis() > preMillis + periodo){
                 preMillis = millis();
                 num--;
@@ -81,7 +81,7 @@ else if (header.indexOf("GET /unminuto") >= 0) {
     num = 60;
     verda2 = true;  
   }
-        for(int i = 0; i <= 60; i++){
+        for(int i = 60; i >= 0; i++){
               if(millis() > preMillis + periodo){
                 preMillis = millis();
                 num--;
