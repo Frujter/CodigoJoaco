@@ -81,7 +81,7 @@ else if (header.indexOf("GET /unminuto") >= 0) {
     num = 60;
     verda2 = true;  
   }
-        for(int i = 60; i >= 0; i++){
+        for(int i = 60; i >= 0; i--){
               if(millis() > preMillis + periodo){
                 preMillis = millis();
                 num--;
